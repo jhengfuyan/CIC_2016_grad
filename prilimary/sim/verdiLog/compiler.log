@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09)
+Command arguments:
+    +define+verilog
+    -f /home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/run.f
+        testfixture.v
+        ../src/LBP.v
+
+Highest level modules:
+testfixture
+
+Total	0 error(s),   0 warning(s)

@@ -1,0 +1,4 @@
+verdiWindowResize -win $_Verdi_1 "2560" "31" "853" "717"
+verdiWindowResize -win $_Verdi_1 "2560" "23" "2560" "1377"
+verdiWindowResize -win $_Verdi_1 "2560" "31" "853" "717"
+debExit

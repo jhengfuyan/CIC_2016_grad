@@ -1,0 +1,9 @@
+verdiWindowResize -win $_Verdi_1 "8" "36" "2560" "1377"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+debImport "/home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/src/LBP.v" \
+          "/home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/testfixture.v" \
+          -path {/home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/src}
+verdiSetActWin -dock widgetDock_<Decl._Tree>
+wvCreateWindow
+wvOpenFile -win $_nWave2 \
+           {/home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/LBP.fsdb}

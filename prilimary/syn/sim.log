@@ -1,0 +1,22 @@
+Command: vcs -f ../sim/run.f -full64 -R -debug_access+all +define+SDF++ -l sim.log \
+
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version O-2018.09_Full64 -- Thu Sep  7 11:33:13 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Error-[SFCOR] Source file cannot be opened
+  Source file "testfixture.v" cannot be opened for reading due to 'No such 
+  file or directory'.
+  Please fix above issue and compile again.
+  
+  
+
+1 error
+CPU time: .186 seconds to compile

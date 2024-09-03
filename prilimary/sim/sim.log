@@ -1,0 +1,102 @@
+Command: vcs -f run.f -full64 -R -debug_access+all +define+++ -l sim.log
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version U-2023.03_Full64 -- Wed Sep 13 08:38:14 2023
+
+                    Copyright (c) 1991 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'testfixture.v'
+Parsing design file '../syn/LBP_syn.v'
+Top Level Modules:
+       testfixture
+TimeScale is 1 ns / 10 ps
+
+Warning-[TFIPC] Too few instance port connections
+../syn/LBP_syn.v, 857
+LBP, "LBP_DP_OP_164_123_7301_0 DP_OP_164_123_7301( .I1 ({ax_y, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0}),  .I2 (ax_x),  .I3 (n722),  .I4 (n18),  .I5 ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, \C2/Z_1 , \C2/Z_0 }),  .I6 (n17),  .I7 (ax_y),  .I8 (\C1/Z_0 ),  .I9 (n17),  .I10 (n16),  .O1 ({N417, N416, N415, N414, N413, N412, N411, N410, N409, N408, N407, N406, N405, N404}),  .O2 ({N356, N355, N354, N353, N352, N351, SYNOPSYS_UNCONNECTED__0, SYNOPSYS_UNCONNECTED__1, SYNOPSYS_UNCONNECTED__2, SYNOPSYS_UNCONNECTED__3, SYNOPSYS_UNCONNECTED__4, SYNOPSYS_UNCONNECTED__5, SYNOPSYS_UNCONNECTED__6, SYNOPSYS_UNCONNECTED__7}),  .O4 ({\C25/DATA4_13 , \C25/DATA4_12 , \C25/DATA4_11 , \C25/DATA4_10 , \C25/DATA4_9 , \C25/DATA4_8 , \C25/DATA4_7 , \C ... "
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 30
+"ADDHXL U2( .A (n8),  .B (n2),  .CO (n1),  .S (n30));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 31
+"ADDHXL U3( .A (n9),  .B (n3),  .CO (n2),  .S (n29));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 32
+"ADDHXL U4( .A (n10),  .B (n4),  .CO (n3),  .S (n28));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 33
+"ADDHXL U5( .A (n11),  .B (n5),  .CO (n4),  .S (n27));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 34
+"ADDHXL U6( .A (n12),  .B (n6),  .CO (n5),  .S (n26));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 35
+"AND2X1 U25( .A (n32),  .B (n37),  .Y (n9));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 36
+"AND2X1 U26( .A (n32),  .B (n38),  .Y (n8));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 37
+"CLKINVX1 U27( .A (n25),  .Y (n6));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 38
+"XNOR2X1 U28( .A (n40),  .B (n1),  .Y (n31));"
+  Module definition of above instance is not found in the design.
+
+
+Error-[URMI] Unresolved modules
+../syn/LBP_syn.v, 39
+"NAND2XL U29( .A (n39),  .B (n32),  .Y (n40));"
+  Module definition of above instance is not found in the design.
+
+
+Note-[MAX_ERROR_COUNT] Maximum error count reached
+  Current number of errors has reached the default maximum error count (10).
+  Please use +error+<count> to increase the limit.
+
+1 warning
+10 errors
+CPU time: .303 seconds to compile

@@ -7,8 +7,14 @@ link
 source -echo -verbose LBP.sdc
 
 #Synthesis all design
-compile -map_effort high -area_effort high
-compile -map_effort high -area_effort high -inc
+set_optimize_registers true -design LBP
+compile_ultra -retime -inc
+compile_ultra 
+
+
+#optimize_netlist -area
+optimize_netlist -area
+
 
 write -format ddc     -hierarchy -output "LBP_syn.ddc"
 write_sdf LBP_syn.sdf

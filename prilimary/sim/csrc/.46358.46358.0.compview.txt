@@ -1,0 +1,8 @@
+{"vcs1":{"timestamp_begin":1694418634.768926155, "rt":1.37, "ut":0.44, "st":0.22}}
+{"vcselab":{"timestamp_begin":1694418636.246912875, "rt":1.67, "ut":0.86, "st":0.17}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1694418634.108788838}
+{"VCS_COMP_START_TIME": 1694418634.108788838}
+{"VCS_COMP_END_TIME": 1694418637.941745882}
+{"VCS_USER_OPTIONS": "-f run.f -full64 -R -debug_access+all -v tsmc13_neg.v +define+SDF++ -l sim.log"}
+{"vcs1": {"peak_mem": 363100}}
+{"vcselab": {"peak_mem": 222756}}

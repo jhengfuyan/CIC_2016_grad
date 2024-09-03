@@ -2,8 +2,8 @@
 ****************************************
 Report : qor
 Design : CLE
-Version: P-2019.03
-Date   : Tue Mar 23 16:30:01 2021
+Version: Q-2019.12
+Date   : Tue Mar 23 17:50:16 2021
 ****************************************
 
 
@@ -59,16 +59,16 @@ Date   : Tue Mar 23 16:30:01 2021
   -----------------------------------
 
 
-  Hostname: icsdws20.ee.yuntech.edu.tw
+  Hostname: dics03.ee.yuntech.edu.tw
 
   Compile CPU Statistics
   -----------------------------------------
   Resource Sharing:                    0.14
   Logic Optimization:                  0.08
-  Mapping Optimization:                0.59
+  Mapping Optimization:                0.56
   -----------------------------------------
   Overall Compile Time:                1.63
-  Overall Compile Wall Clock Time:     1.89
+  Overall Compile Wall Clock Time:     1.90
 
   --------------------------------------------------------------------
 

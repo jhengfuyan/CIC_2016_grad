@@ -1,6 +1,7 @@
-ncsim 15.20-s039
-Linux 4.19.104-microsoft-standard #1 SMP Wed Feb 19 06:37:35 UTC 2020 x86_64
-CPU cores: 8
+LatestSupportedVersion: Xcelium22.9
+ncsim(64) 15.20-s039
+Linux 3.10.0-1160.31.1.el7.x86_64 #1 SMP Thu Jun 10 13:32:12 UTC 2021 x86_64
+CPU cores: 12
 Limit information:
 ======================================
 cputime			unlimited
@@ -12,77 +13,165 @@ memoryuse		unlimited
 vmemoryuse		unlimited
 descriptors		4096
 memorylocked	64 kbytes
-maxproc			39834
+maxproc			4096
 ======================================
 (Special)Runtime environment variables:
 
 Runtime environment variables:
-AMD_ENTRYPOINT=vs/server/remoteExtensionHostProcess
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true
-COLORTERM=truecolor
-DISPLAY=140.125.44.75:0
-GIT_ASKPASS=/home/lin/.vscode-server/bin/e790b931385d72cf5669fcefc51cdf65990efa5d/extensions/git/dist/askpass.sh
-GROUP=lin
-HISTCONTROL=ignoreboth
-HISTSIZE=1000
-HOME=/home/lin
-HOST=DESKTOP-OFJ877F
-HOSTNAME=DESKTOP-OFJ877F
-HOSTTYPE=x86_64-linux
-LANG=en_US.UTF-8
-LD_LIBRARY_PATH=/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX://usr/cad/cadence/INCISIV/cur/tools/lib:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib::/usr/openwin/lib:/usr/dt/lib:/usr/lib:/usr/local/lib
-LESSOPEN=||/usr/bin/lesspipe.sh %s
-LM_LICENSE_FILE=26585@140.120.90.46:5280@140.120.90.46:
-LOGNAME=lin
-LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-MACHTYPE=x86_64
-MAIL=/var/spool/mail/lin
-MANPATH=/usr/cad/synopsys/synthesis/cur/doc/syn/man
-NAME=DESKTOP-OFJ877F
-OSTYPE=linux
-PATH=/usr/cad/synopsys/verdi/cur/bin:/usr/cad/synopsys/verdi/cur/nLint/bin:/usr/bin/X11:/usr/cad/synopsys/coreConsultant/cur/bin:/usr/cad/synopsys/synthesis/cur/amd64/syn/bin:/usr/cad/synopsys/lc/cur/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/home/lin/.local/bin:/home/lin/bin:/home/lin/.vscode-server/bin/e790b931385d72cf5669fcefc51cdf65990efa5d/bin:/home/lin/.local/bin:/home/lin/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program:Files:(x86)/Common:Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program:Files/Git/cmd:/mnt/c/Program:Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program:Files/PuTTY/:/mnt/c/Users/lin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lin/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lin/AppData/Local/Programs/Microsoft:VS:Code/bin:/mnt/c/altera/13.1/modelsim_ase/win32aloem:/mnt/c/iverilog/bin:/mnt/c/iverilog/gtkwave/bin:/mnt/c/Users/lin/AppData/Local/nvs/:/mnt/c/Users/lin/AppData/Roaming/nvm:/mnt/c/Program:Files/nodejs
-PIPE_LOGGING=true
-PWD=/home/lin/github/CIC_2016_grad/sim
-SHELL=/bin/bash
-SHLIB_PATH=/usr/cad/synopsys/verdi/cur/etc/lib/libstdc++/LINUX64/
-SHLVL=8
-SYNTHESIS=/usr/cad/synopsys/synthesis/cur
-SYN_MAN_DIR=/usr/cad/synopsys/synthesis/cur/doc/syn/man
-TERM=xterm-256color
+XDG_SESSION_ID=158
 TERM_PROGRAM=vscode
-TERM_PROGRAM_VERSION=1.49.0
-USER=lin
+HOSTNAME=dics03.ee.yuntech.edu.tw
+SELINUX_ROLE_REQUESTED=
+TERM=xterm-256color
+SHELL=/bin/bash
+HISTSIZE=1000
+SSH_CLIENT=140.125.44.72 52260 22
+TERM_PROGRAM_VERSION=1.81.1
+SELINUX_USE_CURRENT_RANGE=
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=M11212091
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH=/usr/cad/synopsys/verdi/cur//share/PLI/IUS/LINUX64
+PATH=/usr/cad/synopsys/formality/2022.12/amd64/fm/bin:/usr/cad/synopsys/primepower/2019.12/bin:/usr/cad/synopsys/primepower/2019.12/bin:/usr/cad/synopsys/primetime/2017.12/amd64/syn/bin:/usr/cad/mentor/calibre/cur/bin:/usr/cad/cadence/INNOVUS/INNOVUS_20.10.000/tools/bin/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_20.10.000/tools/bin:/usr/cad/synopsys/icc2/2022.03-sp2//bin:/usr/cad/synopsys/icc/2015.06-sp3/amd64/syn/bin:/usr/cad/synopsys/spyglass/2019.06//SPYGLASS_HOME/bin:/usr/cad/synopsys/vcs/2023.03//amd64/bin:/usr/cad/synopsys/verdi/2023.03/bin:/usr/cad/synopsys/synthesis/2022.12/amd64/syn/bin:/cad/synopsys/lc/cur/bin:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/bin/64bit:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/bin:/usr/cad/synopsys/formality/2022.12/amd64/fm/bin:/usr/cad/synopsys/primepower/2019.12/bin:/usr/cad/synopsys/primepower/2019.12/bin:/usr/cad/synopsys/primetime/2017.12/amd64/syn/bin:/usr/cad/mentor/calibre/cur/bin:/usr/cad/cadence/INNOVUS/INNOVUS_20.10.000/tools/bin/64bit:/usr/cad/cadence/INNOVUS/INNOVUS_20.10.000/tools/bin:/usr/cad/synopsys/icc2/2022.03-sp2//bin:/usr/cad/synopsys/icc/2015.06-sp3/amd64/syn/bin:/usr/cad/synopsys/spyglass/2019.06//SPYGLASS_HOME/bin:/usr/cad/synopsys/vcs/2018.09/amd64/bin:/usr/cad/synopsys/verdi/2018.09//bin:/usr/cad/synopsys/verdi/2018.09//nLint/bin:/usr/cad/synopsys/synthesis/2022.12/amd64/syn/bin:/cad/synopsys/lc/cur/bin:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/bin/64bit:/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/bin:/usr/local/cuda/bin:/home/data_1/M11212091/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-centos6/bin/:/tools/Xilinx/Vitis/2020.2/bin:/tools/Xilinx/Vivado/2020.2/bin:/tools/Xilinx/Vitis_HLS/2020.2/bin:/tools/Quartus/quartus/bin:/usr/local/sbin:/usr/sbin:/tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-centos6/bin/:/tools/Xilinx/Vitis/2020.2/bin:/tools/Xilinx/Vivado/2020.2/bin:/tools/Xilinx/Vitis_HLS/2020.2/bin:/tools/Quartus/quartus/bin:/home/data_1/M11212091/.local/bin:/home/data_1/M11212091/bin:/tools/riscv64-unknown-elf-gcc-8.3.0-2020.04.1-x86_64-linux-centos6/bin/:/tools/Xilinx/Vitis/2020.2/bin:/tools/Xilinx/Vivado/2020.2/bin:/tools/Xilinx/Vitis_HLS/2020.2/bin:/tools/Quartus/quartus/bin
+MAIL=/var/spool/mail/M11212091
+PWD=/home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim
+LANG=en_US.UTF-8
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+SELINUX_LEVEL_REQUESTED=
+HISTCONTROL=ignoredups
+HOME=/home/data_1/M11212091
+SHLVL=7
+VSCODE_GIT_ASKPASS_MAIN=/home/data_1/M11212091/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js
+LOGNAME=M11212091
+QTLIB=/usr/lib64/qt-3.3/lib
+VSCODE_GIT_IPC_HANDLE=/run/user/1083/vscode-git-c0e2b1ec3a.sock
+SSH_CONNECTION=140.125.44.72 52260 140.125.44.63 22
+XDG_DATA_DIRS=/home/data_1/M11212091/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_IPC_HOOK_CLI=/run/user/1083/vscode-ipc-1c2befc8-10a7-478d-9ac4-5056e56257e1.sock
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BROWSER=/home/data_1/M11212091/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh
+VSCODE_GIT_ASKPASS_NODE=/home/data_1/M11212091/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node
+GIT_ASKPASS=/home/data_1/M11212091/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh
+XDG_RUNTIME_DIR=/run/user/1083
+DISPLAY=140.125.44.72:0.0
+COLORTERM=truecolor
+OLDPWD=/home/data_1/M11212091
+_=/usr/bin/csh
+HOSTTYPE=x86_64-linux
 VENDOR=unknown
-VERBOSE_LOGGING=true
-VSCODE_GIT_ASKPASS_MAIN=/home/lin/.vscode-server/bin/e790b931385d72cf5669fcefc51cdf65990efa5d/extensions/git/dist/askpass-main.js
-VSCODE_GIT_ASKPASS_NODE=/home/lin/.vscode-server/bin/e790b931385d72cf5669fcefc51cdf65990efa5d/node
-VSCODE_GIT_IPC_HANDLE=/tmp/vscode-git-f697bd783c.sock
-VSCODE_IPC_HOOK_CLI=/tmp/vscode-ipc-153e81c9-60fd-4a38-ba65-2509d4ca6373.sock
-WSLENV=VSCODE_WSL_EXT_LOCATION/up
-WSL_DISTRO_NAME=CentOS8
-WSL_INTEROP=/run/WSL/25995_interop
-_IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
+OSTYPE=linux
+MACHTYPE=x86_64
+GROUP=M11212091
+HOST=dics03.ee.yuntech.edu.tw
+LM_LICENSE_FILE=26585@lstc:1717@140.116.49.24:5280@140.126.24.16:
+SYN_MAN_DIR=/usr/cad/synopsys/vcs/2023.03//doc/man
+MANPATH=/usr/cad/synopsys/synthesis/2022.12/doc/syn/man:/usr/cad/synopsys/vcs/2018.09/doc/man:/usr/cad/synopsys/synthesis/2022.12/doc/syn/man:/usr/cad/synopsys/vcs/2023.03//doc/man
+SYNOPSYS_LC_ROOT=/cad/synopsys/lc/cur
+SHLIB_PATH=/usr/cad/synopsys/verdi/2023.03/etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2023.03/share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2023.03/share/PLI/VCS/LINUX64/::/usr/cad/synopsys/verdi/2018.09//etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2018.09//share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2018.09//share/PLI/VCS/LINUX64/:
+VERDI_HOME=/usr/cad/synopsys/verdi/cur/
+VCS_HOME=/usr/cad/synopsys/vcs/cur/
+VCS_CC=gcc
+XLOCALEDIR=/usr/cad/synopsys/icc2/2022.03-sp2//etc/locale
+MGC_HOME=/usr/cad/mentor/calibre/cur
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+SYNOPSYS=/cad/synopsys/formality/cur
+FORMALITY=/cad/synopsys/formality/cur
+OA_HOME=/usr/cad/cadence/INNOVUS/INNOVUS_20.10.000/oa_v22.60.028
+_IRUNROOT_=/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools
 CDS_ARCH=lnx86
-NCRUNMODE=ncverilog:./INCA_libs/irun.lnx86.15.20.nc
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.15.20.nc
 IRUNBATCH=FALSE
 IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
-TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/INCISIVE_15.20.039/tools/inca/files/tcl/library
 Runtime command line arguments:
 argv[0]=ncverilog
 argv[1]=testfixture.v
-argv[2]=../syn/LBP_syn.v
-argv[3]=-v
-argv[4]=../../tsmc13_neg.v
-argv[5]=+define+SDF
-argv[6]=+define+MD4
-77 profile - 100
-          CPU/Mem usage: 0.030 sys,  0.020 user,  59.93M sys,  0.00M vm
-78 VC callback profile - scalar:0 vector:0
-79 Wed Sep 16 18:17:40 2020
-80 pliAppInit
-81 FSDB_GATE is disabled.
-82 Enable Parallel Dumping.
-83 pliAppMiscSet: New Sim Round
-84 pliEntryInit
-85 LIBSSCORE=found /usr/cad/synopsys/verdi/cur/share/PLI/IUS/LINUX/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
-86 Sim process exit
+argv[2]=../src/LBP_1.v
+argv[3]=+access+r
+93 profile - 100
+          CPU/Mem usage: 0.070 sys,  0.050 user,  205.43M sys,  0.00M vm
+94 VC callback profile - scalar:0 vector:0
+95 Wed Sep 13 08:29:36 2023
+96 pliAppInit
+97 FSDB_GATE is disabled.
+98 Enable Parallel Dumping.
+99 pliAppMiscSet: New Sim Round
+100 pliEntryInit
+101 LIBSSCORE=found /usr/cad/synopsys/verdi/cur//share/PLI/IUS/LINUX64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+102 argv[0]: LBP.fsdb
+103 FSDB Dumper for IUS, Release Verdi_U-2023.03, Linux x86_64/64bit, 02/16/2023
+104 (C) 1996 - 2023 by Synopsys, Inc.
+105 sps_call_fsdbDumpfile at 0 : /home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/testfixture.v(52)
+106 argv[0]: LBP.fsdb
+107 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+108 *Verdi* : Create FSDB file 'LBP.fsdb'
+109 sps_call_fsdbDumpvars at 0 : /home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/testfixture.v(53)
+110 *Verdi* : Begin traversing the scopes, layer (0).
+111 *Verdi* : End of traversing.
+112 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.070 user,  305.74M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  8.74M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  8.74M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  8.74M sys,  0.00M vm
+
+          Count usage: 47 var,  43 idcode,  43 callback
+                 incr: 47 var,  43 idcode,  43 callback
+                 accu: 47 var,  43 idcode,  43 callback
+            accu incr: 47 var,  43 idcode,  43 callback
+113 VC callback profile - scalar:0 vector:0
+114 Wed Sep 13 08:29:37 2023
+115 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.090 sys,  0.070 user,  306.79M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  9.79M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 47 var,  43 idcode,  43 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 47 var,  43 idcode,  43 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+116 VC callback profile - scalar:14 vector:29
+117 Wed Sep 13 08:29:37 2023
+118 sps_call_fsdbDumpMDA at 0 : /home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/testfixture.v(54)
+119 *Verdi* : Begin traversing the MDAs, layer (0).
+120 *Verdi* : Enable +mda and +packedmda dumping.
+121 *Verdi* : End of traversing the MDAs.
+122 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.090 sys,  0.150 user,  312.63M sys,  0.00M vm
+                   incr: 0.000 sys,  0.080 user,  5.84M sys,  0.00M vm
+                   accu: 0.000 sys,  0.080 user,  5.84M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.080 user,  5.84M sys,  0.00M vm
+
+          Count usage: 49208 var,  49204 idcode,  49207 callback
+                 incr: 49161 var,  49161 idcode,  49164 callback
+                 accu: 49161 var,  49161 idcode,  49164 callback
+            accu incr: 49161 var,  49161 idcode,  49164 callback
+123 VC callback profile - scalar:14 vector:29
+124 Wed Sep 13 08:29:37 2023
+125 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.090 sys,  0.180 user,  315.62M sys,  0.00M vm
+                   incr: 0.000 sys,  0.030 user,  2.99M sys,  0.00M vm
+                   accu: 0.000 sys,  0.110 user,  8.83M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.030 user,  2.99M sys,  0.00M vm
+
+          Count usage: 49208 var,  49204 idcode,  49207 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 49161 var,  49161 idcode,  49164 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+126 VC callback profile - scalar:14 vector:49190
+127 Wed Sep 13 08:29:37 2023
+128 End of simulation at 190517000
+129 VC callback profile - scalar:889109 vector:1289018
+130 Wed Sep 13 08:29:37 2023
+131 Begin FSDB profile info:
+132 FSDB Writer : bc1(889109) bcn(1289018) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.288905) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+133 End FSDB profile info
+134 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:16 BlockUsed:19
+135                        ProduceTime:0.793541500 ConsumerTime:0.209965573 Buffer:64MB
+136 SimExit
+137 Sim process exit

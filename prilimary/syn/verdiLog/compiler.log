@@ -1,0 +1,13 @@
+*design* DebussyLib (btIdent Verdi_U-2023.03)
+Command arguments:
+    +define+verilog
+    /home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/src/LBP.v
+    /home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/sim/testfixture.v
+
+
+*Warning* too many digits in hexadecimal
+"/home/data_1/M11212091/CIC/CIC_2016_grad/prilimary/src/LBP.v", 39: 
+Highest level modules:
+testfixture
+
+Total	0 error(s),   1 warning(s)

@@ -1,0 +1,6 @@
+{"vcs1":{"timestamp_begin":1694564886.021150847, "rt":1.74, "ut":0.15, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1694564885.422345051}
+{"VCS_COMP_START_TIME": 1694564885.422345051}
+{"VCS_COMP_END_TIME": 1694564887.862994268}
+{"VCS_USER_OPTIONS": "-f run.f -full64 -R -debug_access+all +define+++ -l sim.log"}
+{"vcs1": {"peak_mem": 329336}}

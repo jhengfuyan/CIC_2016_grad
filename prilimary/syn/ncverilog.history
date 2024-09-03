@@ -1,0 +1,1 @@
+s1(07Sep2023:11:37:16):  ncverilog ../sim/testfixture.v LBP_syn.v -v ../sim/tsmc13_neg.v +define+SDF 

@@ -2,17 +2,17 @@
 ****************************************
 Report : qor
 Design : LBP
-Version: Q-2019.12
-Date   : Wed Sep 16 18:15:57 2020
+Version: U-2022.12
+Date   : Thu Sep  7 16:54:40 2023
 ****************************************
 
 
   Timing Path Group 'clk'
   -----------------------------------
-  Levels of Logic:              12.00
-  Critical Path Length:          4.49
-  Critical Path Slack:           0.14
-  Critical Path Clk Period:     10.00
+  Levels of Logic:               5.00
+  Critical Path Length:          1.62
+  Critical Path Slack:           0.00
+  Critical Path Clk Period:      7.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
@@ -23,52 +23,52 @@ Date   : Wed Sep 16 18:15:57 2020
 
   Cell Count
   -----------------------------------
-  Hierarchical Cell Count:          3
-  Hierarchical Port Count:         54
-  Leaf Cell Count:                411
-  Buf/Inv Cell Count:             104
-  Buf Cell Count:                  36
-  Inv Cell Count:                  68
+  Hierarchical Cell Count:          2
+  Hierarchical Port Count:        126
+  Leaf Cell Count:                703
+  Buf/Inv Cell Count:             128
+  Buf Cell Count:                   0
+  Inv Cell Count:                 128
   CT Buf/Inv Cell Count:            0
-  Combinational Cell Count:       329
-  Sequential Cell Count:           82
+  Combinational Cell Count:       573
+  Sequential Cell Count:          130
   Macro Count:                      0
   -----------------------------------
 
 
   Area
   -----------------------------------
-  Combinational Area:     3152.071813
-  Noncombinational Area:  2637.759514
-  Buf/Inv Area:            882.648014
-  Total Buffer Area:           480.36
-  Total Inverter Area:         402.28
+  Combinational Area:     5362.086566
+  Noncombinational Area:  3946.454990
+  Buf/Inv Area:            906.411587
+  Total Buffer Area:             0.00
+  Total Inverter Area:         906.41
   Macro/Black Box Area:      0.000000
-  Net Area:              53200.268463
+  Net Area:              87033.774567
   -----------------------------------
-  Cell Area:              5789.831327
-  Design Area:           58990.099790
+  Cell Area:              9308.541556
+  Design Area:           96342.316123
 
 
   Design Rules
   -----------------------------------
-  Total Number of Nets:           498
+  Total Number of Nets:           760
   Nets With Violations:             0
   Max Trans Violations:             0
   Max Cap Violations:               0
   -----------------------------------
 
 
-  Hostname: DESKTOP-OFJ877F
+  Hostname: dics03.ee.yuntech.edu.tw
 
   Compile CPU Statistics
   -----------------------------------------
-  Resource Sharing:                    0.03
-  Logic Optimization:                  0.01
-  Mapping Optimization:                0.23
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:                0.00
   -----------------------------------------
-  Overall Compile Time:                1.22
-  Overall Compile Wall Clock Time:     1.47
+  Overall Compile Time:                1.64
+  Overall Compile Wall Clock Time:     1.89
 
   --------------------------------------------------------------------
 
